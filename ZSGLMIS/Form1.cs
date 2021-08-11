@@ -119,5 +119,15 @@ namespace ZSGLMIS
             MySqlDataReader mysqlread = mysqlcom.ExecuteReader(CommandBehavior.CloseConnection);
             return mysqlread;
         }
+
+        private void 地区计划库验证ToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void 帮助主题ToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
